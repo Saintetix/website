@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html,body {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background: #fff;
+    color: #000;
+}
+
+h1 {
+    color: #1b1f23;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.section {
+    width: 550px;
+    min-height: 100vh;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.container {
+    min-height: calc(100vh - 160px);
+    width: 100%;
+}
+
+/**
+
+Nav
+
+**/
+nav {
+    display: flex;
+    align-items:baseline;
+    justify-content:space-between;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #0366d6;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+  }
+
+nav span {
+    padding-left:2rem;
+}
+
+nav li {
+    list-style-type: none;
+    display: inline;
+}
+
+
+/**
+
+Contenue
+
+**/
+.content {
+    min-height: calc(100vh - 280px);
+}
+
+.project {
+    min-height: calc(100vh - 200px);
+}
+
+article {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    min-height: calc(100vh - 280px);
+    border-bottom: 1px solid #3d3d3d;
+}
+
+.emoji {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+footer {
+    height: 70px;
+    line-height: 70px;
+    font-size: 11px;
+    text-align: center;
+}
+
+.pic {
+    vertical-align: middle;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+    border-radius: 10%;
+}
