@@ -67,6 +67,21 @@ nav li {
     display: inline;
 }
 
+/* Logo */
+.pic {
+    vertical-align: middle;
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.picfooter {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+}
 
 /**
 
@@ -99,13 +114,4 @@ footer {
     line-height: 70px;
     font-size: 11px;
     text-align: center;
-}
-
-.pic {
-    vertical-align: middle;
-    width: 40px;
-    height: 40px;
-    margin-bottom: 5px;
-    margin-right: 20px;
-    border-radius: 10%;
 }
